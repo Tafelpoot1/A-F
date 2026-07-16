@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#424936">
+<title>Floris & Amber — Toscane 2027</title>
+<meta name="description" content="Het trouwweekend van Floris en Amber in Toscane, 17 t/m 19 september 2027.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<nav class="nav" id="nav">
+<a class="brand" href="#top">F <em>&</em> A</a>
+<button class="menu" id="menuBtn" aria-label="Menu openen">☰</button>
+<div class="navlinks" id="navLinks">
+<a href="#weekend">Weekend</a>
+<a href="#locatie">Locatie</a>
+<a href="#reis">Reis</a>
+<a href="#praktisch">Info</a>
+<a href="#rsvp" class="nav-rsvp">RSVP</a>
+</div>
+</nav>
+
+<button class="sound-button" id="soundButton" aria-pressed="false">
+<span id="soundIcon">♫</span><span id="soundText">Speel sfeer</span>
+</button>
+<audio id="ambientAudio" loop preload="metadata">
+<source src="assets/sfeer.mp3" type="audio/mpeg">
+</audio>
+
+<header class="hero" id="top">
+<div class="hero-fallback"></div>
+<video id="heroVideo" class="hero-video" autoplay muted loop playsinline preload="metadata">
+<source src="https://videos.pexels.com/video-files/27402080/12135173_3840_2160_30fps.mp4" type="video/mp4">
+</video>
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<p class="eyebrow intro-a">Wij gaan trouwen</p>
+<h1 class="intro-b">Floris <i>&</i> Amber</h1>
+<p class="hero-date intro-c">17 · 18 · 19 september 2027</p>
+<p class="hero-place intro-d">Villa Grassina · Toscane</p>
+<a class="begin intro-e" href="#welkom">Begin de reis ↓</a>
+</div>
+</header>
+
+<main>
+<section class="section welcome" id="welkom">
+<div class="welcome-grid">
+<div class="welcome-copy reveal">
+<p class="eyebrow">Lieve familie & vrienden</p>
+<h2>Welkom in Toscane</h2>
+<p class="lead">Wij kunnen niet wachten om dit bijzondere weekend samen met jullie te beleven — met lange tafels, goede wijn en drie dagen vol liefde.</p>
+<p class="signature">Floris & Amber</p>
+</div>
+<div class="photo-cluster reveal">
+<figure class="photo-card p1"><img src="assets/floris-amber-1.jpeg" alt="Floris en Amber"></figure>
+<figure class="photo-card p2"><img src="assets/floris-amber-2.jpeg" alt="Floris en Amber"></figure>
+<figure class="photo-card p3"><img src="assets/floris-amber-3.jpeg" alt="Floris en Amber"></figure>
+</div>
+</div>
+</section>
+
+<section class="countdown-band">
+<div class="countdown reveal">
+<div><strong id="days">0</strong><span>Dagen</span></div>
+<div><strong id="hours">0</strong><span>Uren</span></div>
+<div><strong id="minutes">0</strong><span>Minuten</span></div>
+<div><strong id="seconds">0</strong><span>Seconden</span></div>
+</div>
+</section>
+
+<section class="section" id="weekend">
+<div class="section-heading reveal"><p class="eyebrow">Het weekend</p><h2>A weekend in Tuscany</h2></div>
+<div class="days">
+<article class="day reveal">
+<div class="icon">🍕</div>
+<p class="date">Vrijdag 17 september</p>
+<h3>Benvenuti</h3>
+<p class="time">19.00 – 21.00</p>
+<strong>Pizzadiner</strong>
+<p>We proosten samen op het weekend tijdens een gezellige Italiaanse pizza-avond.</p>
+</article>
+
+<article class="day featured reveal">
+<div class="icon">✦</div>
+<p class="date">Zaterdag 18 september</p>
+<h3>Il giorno del sì</h3>
+<ul class="timeline">
+<li><span>17.30</span><b>Aperitief</b><small>Bij de kapel met prosecco en hapjes</small></li>
+<li><span>19.30</span><b>Diner</b><small>Driegangenmenu en Italiaanse bruidstaart</small></li>
+<li><span>22.00</span><b>Open bar</b><small>Feest tot 01.00 uur</small></li>
+</ul>
+</article>
+
+<article class="day reveal">
+<div class="icon">☕</div>
+<p class="date">Zondag 19 september</p>
+<h3>Arrivederci</h3>
+<p class="time">Ochtend</p>
+<strong>Ontbijt & afscheid</strong>
+<p>We genieten samen nog één keer van een rustig ontbijt voordat we afscheid nemen.</p>
+</article>
+</div>
+</section>
+
+<section class="location" id="locatie">
+<div class="location-copy reveal">
+<p class="eyebrow light">Onze locatie</p>
+<h2>Villa Grassina</h2>
+<p class="lead-small">Midden in het Toscaanse landschap, omringd door heuvels, olijfbomen en cipressen.</p>
+<p>Via di Grassina 102, 50060 Pelago FI, Italië</p>
+<a href="https://maps.google.com/?q=Villa+Grassina+Pelago" target="_blank" rel="noopener">Bekijk op Google Maps ↗</a>
+</div>
+<div class="map reveal"><img src="assets/kaart-toscane.svg" alt="Kaart van Toscane en Villa Grassina"></div>
+</section>
+
+<section class="travel-strip" id="reis">
+<div class="travel-item reveal"><span>✈</span><strong>Transfer</strong><small>Vanaf Pisa Airport op vaste momenten</small></div>
+<div class="travel-item reveal"><span>♨</span><strong>Dieetwensen</strong><small>Graag uiterlijk vóór 3 september 2027</small></div>
+<div class="travel-item reveal"><span>▱</span><strong>Accommodatie</strong><small>Verblijf in één van de appartementen</small></div>
+<div class="travel-item reveal"><span>♧</span><strong>Dresscode</strong><small>Summer chic & kleurrijk</small></div>
+</section>
+
+<section class="section practical" id="praktisch">
+<div class="section-heading reveal"><p class="eyebrow">Goed om te weten</p><h2>Praktische informatie</h2></div>
+<div class="faq reveal">
+<details><summary>Zijn kinderen welkom?</summary><p>We vieren onze bruiloft graag met volwassenen. Daarom is het trouwweekend zonder kinderen.</p></details>
+<details><summary>Hoe regelen we de reis?</summary><p>De reis naar Italië regel je zelf. Voor gasten die naar Pisa vliegen organiseren wij vervoer vanaf een centraal verzamelpunt.</p></details>
+<details><summary>Waar verblijven we?</summary><p>De kamerindeling en verdere informatie over het verblijf ontvangen jullie ruim voor vertrek.</p></details>
+<details><summary>Wat is de dresscode?</summary><p>Summer chic en kleurrijk: feestelijk, zomers en passend bij Toscane.</p></details>
+</div>
+</section>
+
+<section class="rsvp section" id="rsvp">
+<div class="rsvp-copy reveal">
+<p class="eyebrow light">Kom je ook?</p>
+<h2>Laat het ons weten</h2>
+<p>Graag vóór 3 september 2027.</p>
+<p class="small">Na verzenden opent een e-mail aan Floris en Amber.</p>
+</div>
+<form id="rsvpForm" class="rsvp-form reveal">
+<label>Naam / namen<input id="name" required></label>
+<label>E-mailadres<input id="email" type="email" required></label>
+<label>Kom je?
+<select id="attendance" required>
+<option value="">Maak een keuze</option>
+<option>Ja, heel graag!</option>
+<option>Nee, helaas niet</option>
+</select>
+</label>
+<label>Dieetwensen of opmerkingen<textarea id="message"></textarea></label>
+<button type="submit">Verstuur RSVP ♡</button>
+</form>
+</section>
+</main>
+
+<footer><div class="footer-mark">F <em>&</em> A</div><p>17 — 19 september 2027 · Toscane</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
