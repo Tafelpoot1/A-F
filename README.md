@@ -1,0 +1,1 @@
+Upload index.html, styles.css, script.js en de volledige map assets naar GitHub. De RSVP gaat uitsluitend naar Floris en Amber. De MP4 en MP3 zijn lokaal opgenomen in assets.
